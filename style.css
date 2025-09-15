@@ -424,11 +424,20 @@ footer .text span a:hover{
   }
 }
 @media (max-width: 750px) {
-  nav .navbar .media-icons{
-    display:flex;
-    justify-content:center;
-    gap:10px;
-    width: 90%;
+  .projects .boxes {
+    flex-wrap: nowrap;         /* Prevent wrapping */
+    overflow-x: auto;          /* Enable horizontal scroll */
+    scroll-snap-type: x mandatory;
+  }
+
+  .projects .boxes .box {
+    min-width: 300px;          /* Fixed width for horizontal scroll */
+    flex: 0 0 auto;            /* Prevent shrinking */
+    margin-right: 20px;
+    scroll-snap-align: start;
+  }
+
+
   }
   nav .navbar .menu{
     position: fixed;
@@ -507,6 +516,7 @@ footer .text span a:hover{
   }
 
 }
+
 
 
 
