@@ -421,7 +421,10 @@ footer .text span a:hover{
   }
 }
 @media (max-width: 750px) {
-  nav .navbar{
+  nav .navbar .media-icons{
+    display:flex;
+    justify-content:center;
+    gap:10px;
     width: 90%;
   }
   nav .navbar .menu{
@@ -497,6 +500,7 @@ footer .text span a:hover{
   }
 
 }
+
 
 
 
