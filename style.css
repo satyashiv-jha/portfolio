@@ -301,17 +301,19 @@ section .button button:hover{
   color: #4070f4;
 }
 /* My Services CSS */
-.services .boxes{
+.projects .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap:20px;
 }
 .projects .boxes .box{
+   width: calc(33.333% - 20px); /* 3 boxes per row with spacing */
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
   border-radius: 12px;
-  padding: 30px 10px;
+  padding: 40px 50px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
@@ -505,6 +507,7 @@ footer .text span a:hover{
   }
 
 }
+
 
 
 
