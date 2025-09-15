@@ -105,6 +105,7 @@ nav.sticky .menu-btn{
 /* home section styling */
 .home{
   height: 100vh;
+  padding-top:80px;
   width: 100%;
   background: url("WhatsApp Image 2025-09-15 at 14.30.01_0c24b595.jpg") no-repeat;
   background-size: cover;
@@ -504,6 +505,7 @@ footer .text span a:hover{
   }
 
 }
+
 
 
 
